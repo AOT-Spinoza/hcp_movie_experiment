@@ -17,13 +17,19 @@ eyetracker:
     calibration_type: HV13
 
 stimuli:
-  movie_files: ['Pre_20140821_version/7T_MOVIE1_CC1.mp4', 'Pre_20140821_version/7T_MOVIE2_HO1.mp4', 'Pre_20140821_version/7T_MOVIE3_CC2.mp4', 'Pre_20140821_version/7T_MOVIE4_HO2.mp4', 'Post_20140821_version/7T_MOVIE1_CC1_v2.mp4', 'Post_20140821_version/7T_MOVIE2_HO1_v2.mp4', 'Post_20140821_version/7T_MOVIE3_CC2_v2.mp4', 'Post_20140821_version/7T_MOVIE4_HO2_v2.mp4']
+  movie_files: ['run_01.mp4', 'run_02.mp4', 'run_03.mp4', 'run_04.mp4', 'run_05.mp4', 'run_06.mp4', 'run_07.mp4', 'run_08.mp4']
   aperture_radius: 400
   fix_radius: 6
   fix_color: [1, 1, 1]
   fix_line_width: 0.25
   movie_size_pix: [1536,1080]
+  shrink_factor: 0.7
 
+paths:
+  stimuli_path: "/Users/shufanzhang/AOT_stimuli/HCPfinals"
+  stimuli_path_spinoza1 : '/experiments/knapen_aot/AOT/AOT_stimuli/HCPfinals'
+  stimuli_path_spinoza2 : '/experiments/AOT/AOT_stimuli/HCPfinals'
+  
 design:
   n_trials: 1
   start_duration: 24

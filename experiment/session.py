@@ -35,20 +35,35 @@ class HCPMovieELSession(PylinkEyetrackerSession):
         self.n_trials = self.settings['design'].get('n_trials')  
         self.which_movie = int(which_movie)
 
+        originalsize = self.settings["stimuli"].get("movie_size_pix")
+        shrink_factor = self.settings["stimuli"].get("shrink_factor")
+        display_size = [l*shrink_factor for l in originalsize]
+        self.shiftedpos = (0, -originalsize[1]*(1-shrink_factor)/2)
+
+
         self.fixation = FixationLines(win=self.win, 
-                                    circle_radius=self.settings['stimuli'].get('aperture_radius')*2,
+                                    circle_radius=self.settings['stimuli'].get('aperture_radius')*2 * shrink_factor,
                                     color=(1, -1, -1), 
-                                    line_width=self.settings['stimuli'].get('fix_line_width'))
+                                    line_width=self.settings['stimuli'].get('fix_line_width'),
+                                    pos=self.shiftedpos)
+                            
 
         self.report_fixation = FixationLines(win=self.win, 
-                                    circle_radius=self.settings['stimuli'].get('fix_radius')*2,
+                                    circle_radius=self.settings['stimuli'].get('fix_radius')*2 * shrink_factor,
                                     color=self.settings['stimuli'].get('fix_color'), 
-                                    line_width=self.settings['stimuli'].get('fix_line_width'))
+                                    line_width=self.settings['stimuli'].get('fix_line_width')
+                                    ,pos=self.shiftedpos)
 
-        self.movie = os.path.join(os.path.abspath(os.getcwd()), 'movs', self.settings['stimuli'].get('movie_files')[self.which_movie])
+        if os.path.exists(self.settings["paths"].get("stimuli_path")):
+            self.movie = os.path.join(self.settings["paths"].get("stimuli_path"), self.settings['stimuli'].get('movie_files')[self.which_movie])
+        elif os.path.exists(self.settings['paths'].get('stimuli_path_spinoza1')):
+            self.movie = os.path.join(self.settings['paths'].get('stimuli_path_spinoza1'), self.settings['stimuli'].get('movie_files')[self.which_movie])
+        elif os.path.exists(self.settings['paths'].get('stimuli_path_spinoza2')):
+            self.movie = os.path.join(self.settings['paths'].get('stimuli_path_spinoza2'), self.settings['stimuli'].get('movie_files')[self.which_movie])
+        
         self.movie_duration = get_movie_length(self.movie)
         print(f'movie duration for this run: {self.movie_duration}')
-        self.movie_stim = MovieStim3(self.win, filename=self.movie, size=self.settings['stimuli'].get('movie_size_pix'))
+        self.movie_stim = MovieStim3(self.win, filename=self.movie, size=display_size, pos=self.shiftedpos, noAudio=True,fps=None) 
 
     def create_trials(self):
         """ Creates trials (ideally before running your session!) """
@@ -69,7 +84,7 @@ class HCPMovieELSession(PylinkEyetrackerSession):
                                             phase_durations=[self.settings['design'].get('end_duration')],
                                             txt='')
 
-        movie_trial = HCPMovieELTrial(self, 
+        movie_trial = HCPMovieELTrial(session=self, 
                                         trial_nr=0, 
                                         phase_durations=[self.settings['design'].get('fix_movie_interval'), self.movie_duration, self.settings['design'].get('fix_movie_interval')], 
                                         phase_names=['fix_pre', 'movie', 'fix_post'],

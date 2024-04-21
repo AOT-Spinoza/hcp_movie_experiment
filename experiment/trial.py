@@ -64,7 +64,7 @@ class InstructionTrial(Trial):
             txt = '''Press any button to continue.'''
 
         self.text = TextStim(self.session.win, txt,
-                             height=txt_height, wrapWidth=txt_width, **kwargs)
+                             height=txt_height,pos = self.session.shiftedpos, wrapWidth=txt_width, **kwargs)
 
         self.keys = keys
 

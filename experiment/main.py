@@ -9,8 +9,8 @@ import yaml
 from session import HCPMovieELSession
 
 parser = argparse.ArgumentParser()
-parser.add_argument('subject', default=None, nargs='?')
-parser.add_argument('run', default=None, nargs='?')
+parser.add_argument('subject', default=1, nargs='?')
+parser.add_argument('run', default=1, nargs='?')
 parser.add_argument('eyelink', default=False, nargs='?')
 
 cmd_args = parser.parse_args()

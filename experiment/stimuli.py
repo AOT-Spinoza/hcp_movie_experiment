@@ -4,13 +4,13 @@ from psychopy.visual import TextStim, Line, RadialStim
 
 class FixationLines(object):
 
-    def __init__(self, win, circle_radius, color, line_width, *args, **kwargs):
+    def __init__(self, win, circle_radius, color, line_width, pos=[0,0], *args, **kwargs):
         self.color = color
         self.line_width = line_width
-        self.line1 = Line(win, start=(-circle_radius, -circle_radius),
-                          end=(circle_radius, circle_radius), lineColor=self.color, lineWidth=self.line_width, *args, **kwargs)
-        self.line2 = Line(win, start=(-circle_radius, circle_radius),
-                          end=(circle_radius, -circle_radius), lineColor=self.color, lineWidth=self.line_width, *args, **kwargs)
+        self.line1 = Line(win, start=(-circle_radius+pos[0], -circle_radius+pos[1]),
+                          end=(circle_radius+pos[0], circle_radius+pos[1]), lineColor=self.color, lineWidth=self.line_width, *args, **kwargs)
+        self.line2 = Line(win, start=(-circle_radius+pos[0], circle_radius+pos[1]),
+                          end=(circle_radius+pos[0], -circle_radius+pos[1]), lineColor=self.color, lineWidth=self.line_width, *args, **kwargs)
 
     def draw(self):
         self.line1.draw()
