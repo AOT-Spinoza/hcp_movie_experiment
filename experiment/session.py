@@ -18,7 +18,7 @@ def get_movie_length(filename):
 
 
 class HCPMovieELSession(PylinkEyetrackerSession):
-    def __init__(self, output_str, output_dir, settings_file, eyetracker_on=True, which_movie=0):
+    def __init__(self, output_str, output_dir, settings_file, which_movie, eyetracker_on=True):
         """ Initializes StroopSession object. 
       
         Parameters
@@ -63,7 +63,7 @@ class HCPMovieELSession(PylinkEyetrackerSession):
         
         self.movie_duration = get_movie_length(self.movie)
         print(f'movie duration for this run: {self.movie_duration}')
-        self.movie_stim = MovieStim3(self.win, filename=self.movie, size=display_size, pos=self.shiftedpos, noAudio=True,fps=None) 
+        self.movie_stim = MovieStim3(self.win, filename=self.movie, size=display_size, pos=self.shiftedpos, noAudio=False,fps=None) 
 
     def create_trials(self):
         """ Creates trials (ideally before running your session!) """
