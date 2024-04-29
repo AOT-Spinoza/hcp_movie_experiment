@@ -1,0 +1,416 @@
+1.5132 	WARNING 	We strongly recommend you activate the PTB sound engine in PsychoPy prefs as the preferred audio engine. Its timing is vastly superior. Your prefs are currently set to use ['sounddevice', 'PTB', 'pyo', 'pygame'] (in that order).
+2.9626 	WARNING 	Using eyetracker
+3.6441 	WARNING 	Actual framerate: 119.94727 (1 frame = 0.00834)
+3.6566 	EXP 	Created unnamed Circle = Circle(__class__=<class 'psychopy.visual.circle.Circle'>, anchor=('center', 'center'), autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace='rgb', contrast=None, depth=0, fillColor=array([1, 1, 1]), fillColorSpace='rgb', fillRGB=array([1, 1, 1]), interpolate=True, lineColor=array([0, 0, 0]), lineColorSpace='rgb', lineRGB=array([0, 0, 0]), lineWidth=1.5, name='unnamed Circle', opacity=0.5, ori=0.0, pos=array([0., 0.]), size=array([1., 1.]), units='pix', vertices=ndarray(...), win=Window(...))
+3.8375 	EXP 	Created unnamed Circle = Circle(__class__=<class 'psychopy.visual.circle.Circle'>, anchor=('center', 'center'), autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace='rgb', contrast=None, depth=0, fillColor=array([1, 1, 1]), fillColorSpace='rgb', fillRGB=array([1, 1, 1]), interpolate=True, lineColor=array([1, 1, 1]), lineColorSpace='rgb', lineRGB=array([1, 1, 1]), lineWidth=1.5, name='unnamed Circle', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([1., 1.]), units='pix', vertices=ndarray(...), win=Window(...))
+3.8400 	EXP 	Created unnamed Circle = Circle(__class__=<class 'psychopy.visual.circle.Circle'>, anchor=('center', 'center'), autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace='rgb', contrast=None, depth=0, fillColor=array([1, 1, 1]), fillColorSpace='rgb', fillRGB=array([1, 1, 1]), interpolate=True, lineColor=array([1, 1, 1]), lineColorSpace='rgb', lineRGB=array([1, 1, 1]), lineWidth=1.5, name='unnamed Circle', opacity=0.0, ori=0.0, pos=array([0., 0.]), size=array([1., 1.]), units='pix', vertices=ndarray(...), win=Window(...))
+4.8750 	EXP 	Created unnamed Line = Line(__class__=<class 'psychopy.visual.line.Line'>, anchor=('center', 'center'), autoDraw=False, autoLog=True, closeShape=False, color=array([1, 1, 1]), colorSpace='rgb', contrast=None, depth=0, fillColor=array([0, 0, 0]), fillColorSpace='rgb', fillRGB=array([0, 0, 0]), interpolate=True, lineColor=array([1, 1, 1]), lineColorSpace='rgb', lineRGB=array([1, 1, 1]), lineWidth=1.5, name='unnamed Line', opacity=0.5, ori=0.0, pos=array([0., 0.]), size=array([1., 1.]), units='pix', vertices=ndarray(...), win=Window(...), windingRule=None)
+4.8765 	EXP 	Created unnamed Line = Line(__class__=<class 'psychopy.visual.line.Line'>, anchor=('center', 'center'), autoDraw=False, autoLog=True, closeShape=False, color=array([1, 1, 1]), colorSpace='rgb', contrast=None, depth=0, fillColor=array([0, 0, 0]), fillColorSpace='rgb', fillRGB=array([0, 0, 0]), interpolate=True, lineColor=array([1, 1, 1]), lineColorSpace='rgb', lineRGB=array([1, 1, 1]), lineWidth=1.5, name='unnamed Line', opacity=0.5, ori=0.0, pos=array([0., 0.]), size=array([1., 1.]), units='pix', vertices=ndarray(...), win=Window(...), windingRule=None)
+4.8778 	EXP 	Created unnamed Line = Line(__class__=<class 'psychopy.visual.line.Line'>, anchor=('center', 'center'), autoDraw=False, autoLog=True, closeShape=False, color=array([1, 1, 1]), colorSpace='rgb', contrast=None, depth=0, fillColor=array([0, 0, 0]), fillColorSpace='rgb', fillRGB=array([0, 0, 0]), interpolate=True, lineColor=array([1, 1, 1]), lineColorSpace='rgb', lineRGB=array([1, 1, 1]), lineWidth=1.5, name='unnamed Line', opacity=0.5, ori=0.0, pos=array([0., 0.]), size=array([1., 1.]), units='pix', vertices=ndarray(...), win=Window(...), windingRule=None)
+4.8791 	EXP 	Created unnamed Line = Line(__class__=<class 'psychopy.visual.line.Line'>, anchor=('center', 'center'), autoDraw=False, autoLog=True, closeShape=False, color=array([1, 1, 1]), colorSpace='rgb', contrast=None, depth=0, fillColor=array([0, 0, 0]), fillColorSpace='rgb', fillRGB=array([0, 0, 0]), interpolate=True, lineColor=array([1, 1, 1]), lineColorSpace='rgb', lineRGB=array([1, 1, 1]), lineWidth=1.5, name='unnamed Line', opacity=0.5, ori=0.0, pos=array([0., 0.]), size=array([1., 1.]), units='pix', vertices=ndarray(...), win=Window(...), windingRule=None)
+5.0689 	EXP 	Created unnamed MovieStim3 = MovieStim3(__class__=<class 'psychopy.visual.movie3.MovieStim3'>, anchor=('center', 'center'), autoLog=True, color=UNKNOWN, colorSpace=UNKNOWN, depth=0.0, filename=str(...), flipHoriz=False, flipVert=False, fps=UNKNOWN, interpolate=True, loop=False, name='unnamed MovieStim3', noAudio=False, opacity=1, ori=method-wrapper(...), pos=array([   0., -162.]), size=None, units='pix', vframe_callback=UNKNOWN, volume=UNKNOWN, win=Window(...))
+7.3449 	WARNING 	2.2759900093078613: Video catchup needed, advancing self._nextFrameT from 0.0 to 0.041666666666666664
+7.3450 	WARNING 	2.276038885116577: Video catchup needed, advancing self._nextFrameT from 0.041666666666666664 to 0.08333333333333333
+7.3450 	WARNING 	2.2760519981384277: Video catchup needed, advancing self._nextFrameT from 0.08333333333333333 to 0.125
+7.3450 	WARNING 	2.2760748863220215: Video catchup needed, advancing self._nextFrameT from 0.125 to 0.16666666666666666
+7.3450 	WARNING 	2.2760848999023438: Video catchup needed, advancing self._nextFrameT from 0.16666666666666666 to 0.20833333333333331
+7.3450 	WARNING 	2.276094913482666: Video catchup needed, advancing self._nextFrameT from 0.20833333333333331 to 0.24999999999999997
+7.3450 	WARNING 	2.2761049270629883: Video catchup needed, advancing self._nextFrameT from 0.24999999999999997 to 0.29166666666666663
+7.3450 	WARNING 	2.276113986968994: Video catchup needed, advancing self._nextFrameT from 0.29166666666666663 to 0.3333333333333333
+7.3450 	WARNING 	2.276122808456421: Video catchup needed, advancing self._nextFrameT from 0.3333333333333333 to 0.375
+7.3451 	WARNING 	2.2761318683624268: Video catchup needed, advancing self._nextFrameT from 0.375 to 0.4166666666666667
+7.3451 	WARNING 	Max reportNDroppedFrames reached, will not log any more dropped frames
+7.5731 	EXP 	Created unnamed TextStim = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0, flipHoriz=False, flipVert=False, font='', fontFiles=[], height=22.5, italic=False, languageStyle='LTR', name='unnamed TextStim', opacity=1.0, ori=0.0, pos=array([   0., -162.]), rgb=UNKNOWN, text='', units='pix', win=Window(...), wrapWidth=14)
+7.5741 	EXP 	Created unnamed TextStim = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0, flipHoriz=False, flipVert=False, font='', fontFiles=[], height=22.5, italic=False, languageStyle='LTR', name='unnamed TextStim', opacity=1.0, ori=0.0, pos=array([   0., -162.]), rgb=UNKNOWN, text='', units='pix', win=Window(...), wrapWidth=14)
+7.5747 	EXP 	Created unnamed TextStim = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0, flipHoriz=False, flipVert=False, font='', fontFiles=[], height=22.5, italic=False, languageStyle='LTR', name='unnamed TextStim', opacity=1.0, ori=0.0, pos=array([   0., -162.]), rgb=UNKNOWN, text='', units='pix', win=Window(...), wrapWidth=14)
+7.5748 	WARNING 	Writing results to: /home/wang/Projects/hcp_movie_experiment/logs/sub-1_run-1_task-movie
+8.1273 	EXP 	Created unnamed TextStim = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([-1, -1, -1]), colorSpace='rgb', contrast=1.0, depth=0, flipHoriz=False, flipVert=False, font='', fontFiles=[], height=20.0, italic=False, languageStyle='LTR', name='unnamed TextStim', opacity=1.0, ori=0.0, pos=array([  0., 100.]), rgb=UNKNOWN, text=str(...), units='pix', win=Window(...), wrapWidth=500)
+8.1359 	EXP 	unnamed MovieStim3: autoLog = True
+8.1359 	EXP 	unnamed MovieStim3: movie = '/experiments/AOT/AOT_stimuli/HCPfinals/run_01.mp4'
+8.1359 	EXP 	unnamed MovieStim3: ori = 0.0
+11.3399 	EXP 	Created unnamed TextStim = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([-1, -1, -1]), colorSpace='rgb', contrast=1.0, depth=0, flipHoriz=False, flipVert=False, font='', fontFiles=[], height=20.0, italic=False, languageStyle='LTR', name='unnamed TextStim', opacity=1.0, ori=0.0, pos=array([  0., 100.]), rgb=UNKNOWN, text=str(...), units='pix', win=Window(...), wrapWidth=500)
+11.3438 	EXP 	window1: recordFrameIntervals = True
+11.4937 	EXP 	unnamed TextStim: height = 22.5
+11.4937 	EXP 	unnamed TextStim: height = 22.5
+11.4937 	EXP 	unnamed TextStim: height = 22.5
+11.4937 	EXP 	unnamed TextStim: text = ''
+31.8860 	DATA 	Keypress: space
+31.8939 	EXP 	unnamed TextStim: height = 22.5
+31.8939 	EXP 	unnamed TextStim: height = 22.5
+31.8939 	EXP 	unnamed TextStim: height = 22.5
+31.8939 	EXP 	unnamed TextStim: text = ''
+72.7549 	DATA 	Keypress: t
+74.3523 	DATA 	Keypress: t
+75.9522 	DATA 	Keypress: t
+77.5522 	DATA 	Keypress: t
+79.1522 	DATA 	Keypress: t
+80.7521 	DATA 	Keypress: t
+82.3521 	DATA 	Keypress: t
+83.9522 	DATA 	Keypress: t
+85.5522 	DATA 	Keypress: t
+87.1522 	DATA 	Keypress: t
+88.7522 	DATA 	Keypress: t
+90.3522 	DATA 	Keypress: t
+91.9521 	DATA 	Keypress: t
+93.5522 	DATA 	Keypress: t
+95.1522 	DATA 	Keypress: t
+96.7522 	DATA 	Keypress: t
+98.3521 	DATA 	Keypress: t
+99.9522 	DATA 	Keypress: t
+101.5521 	DATA 	Keypress: t
+103.1520 	DATA 	Keypress: t
+104.7521 	DATA 	Keypress: t
+106.3521 	DATA 	Keypress: t
+107.9521 	DATA 	Keypress: t
+109.5521 	DATA 	Keypress: t
+111.1522 	DATA 	Keypress: t
+112.7521 	DATA 	Keypress: t
+114.3520 	DATA 	Keypress: t
+115.9520 	DATA 	Keypress: t
+117.5520 	DATA 	Keypress: t
+119.1521 	DATA 	Keypress: t
+120.7520 	DATA 	Keypress: t
+122.3521 	DATA 	Keypress: t
+123.9516 	DATA 	Keypress: t
+125.5519 	DATA 	Keypress: t
+127.1522 	DATA 	Keypress: t
+128.7520 	DATA 	Keypress: t
+130.3520 	DATA 	Keypress: t
+131.9519 	DATA 	Keypress: t
+133.5519 	DATA 	Keypress: t
+135.1519 	DATA 	Keypress: t
+136.7519 	DATA 	Keypress: t
+138.3519 	DATA 	Keypress: t
+139.9520 	DATA 	Keypress: t
+141.5519 	DATA 	Keypress: t
+143.1520 	DATA 	Keypress: t
+144.7519 	DATA 	Keypress: t
+146.3519 	DATA 	Keypress: t
+147.9519 	DATA 	Keypress: t
+149.5518 	DATA 	Keypress: t
+151.1518 	DATA 	Keypress: t
+152.7520 	DATA 	Keypress: t
+154.3518 	DATA 	Keypress: t
+155.9519 	DATA 	Keypress: t
+157.5518 	DATA 	Keypress: t
+159.1519 	DATA 	Keypress: t
+160.7518 	DATA 	Keypress: t
+162.3517 	DATA 	Keypress: t
+163.9517 	DATA 	Keypress: t
+165.5517 	DATA 	Keypress: t
+167.1517 	DATA 	Keypress: t
+168.7517 	DATA 	Keypress: t
+170.3517 	DATA 	Keypress: t
+171.9518 	DATA 	Keypress: t
+173.5518 	DATA 	Keypress: t
+175.1519 	DATA 	Keypress: t
+176.7517 	DATA 	Keypress: t
+178.3518 	DATA 	Keypress: t
+179.9519 	DATA 	Keypress: t
+181.5516 	DATA 	Keypress: t
+183.1517 	DATA 	Keypress: t
+184.7517 	DATA 	Keypress: t
+186.3517 	DATA 	Keypress: t
+187.9516 	DATA 	Keypress: t
+189.5517 	DATA 	Keypress: t
+191.1517 	DATA 	Keypress: t
+192.7517 	DATA 	Keypress: t
+194.3517 	DATA 	Keypress: t
+195.9516 	DATA 	Keypress: t
+197.5518 	DATA 	Keypress: t
+199.1516 	DATA 	Keypress: t
+200.7517 	DATA 	Keypress: t
+202.3518 	DATA 	Keypress: t
+203.9517 	DATA 	Keypress: t
+205.5516 	DATA 	Keypress: t
+207.1517 	DATA 	Keypress: t
+208.7516 	DATA 	Keypress: t
+210.3516 	DATA 	Keypress: t
+211.9515 	DATA 	Keypress: t
+213.5516 	DATA 	Keypress: t
+215.1517 	DATA 	Keypress: t
+216.7516 	DATA 	Keypress: t
+218.3516 	DATA 	Keypress: t
+219.9516 	DATA 	Keypress: t
+221.5516 	DATA 	Keypress: t
+223.1515 	DATA 	Keypress: t
+224.7516 	DATA 	Keypress: t
+226.3516 	DATA 	Keypress: t
+227.9515 	DATA 	Keypress: t
+229.5515 	DATA 	Keypress: t
+231.1514 	DATA 	Keypress: t
+232.7517 	DATA 	Keypress: t
+234.3516 	DATA 	Keypress: t
+235.9511 	DATA 	Keypress: t
+237.5514 	DATA 	Keypress: t
+239.1514 	DATA 	Keypress: t
+240.7515 	DATA 	Keypress: t
+242.3515 	DATA 	Keypress: t
+243.9514 	DATA 	Keypress: t
+245.5515 	DATA 	Keypress: t
+247.1514 	DATA 	Keypress: t
+248.7514 	DATA 	Keypress: t
+250.3514 	DATA 	Keypress: t
+251.9514 	DATA 	Keypress: t
+253.5514 	DATA 	Keypress: t
+255.1514 	DATA 	Keypress: t
+256.7514 	DATA 	Keypress: t
+258.3514 	DATA 	Keypress: t
+259.9514 	DATA 	Keypress: t
+261.5514 	DATA 	Keypress: t
+263.1514 	DATA 	Keypress: t
+264.7512 	DATA 	Keypress: t
+266.3513 	DATA 	Keypress: t
+267.9515 	DATA 	Keypress: t
+269.5513 	DATA 	Keypress: t
+271.1513 	DATA 	Keypress: t
+272.7513 	DATA 	Keypress: t
+274.3513 	DATA 	Keypress: t
+275.9513 	DATA 	Keypress: t
+277.5513 	DATA 	Keypress: t
+279.1513 	DATA 	Keypress: t
+280.7513 	DATA 	Keypress: t
+282.3513 	DATA 	Keypress: t
+283.9512 	DATA 	Keypress: t
+285.5512 	DATA 	Keypress: t
+287.1514 	DATA 	Keypress: t
+288.7514 	DATA 	Keypress: t
+290.3508 	DATA 	Keypress: t
+291.9509 	DATA 	Keypress: t
+293.5511 	DATA 	Keypress: t
+295.1513 	DATA 	Keypress: t
+296.7512 	DATA 	Keypress: t
+298.3510 	DATA 	Keypress: t
+299.9511 	DATA 	Keypress: t
+301.5512 	DATA 	Keypress: t
+303.1511 	DATA 	Keypress: t
+304.7512 	DATA 	Keypress: t
+306.3511 	DATA 	Keypress: t
+307.9511 	DATA 	Keypress: t
+309.5512 	DATA 	Keypress: t
+311.1511 	DATA 	Keypress: t
+312.7511 	DATA 	Keypress: t
+314.3511 	DATA 	Keypress: t
+315.9510 	DATA 	Keypress: t
+317.5512 	DATA 	Keypress: t
+319.1511 	DATA 	Keypress: t
+320.7511 	DATA 	Keypress: t
+322.3510 	DATA 	Keypress: t
+323.9512 	DATA 	Keypress: t
+325.5511 	DATA 	Keypress: t
+327.1510 	DATA 	Keypress: t
+328.7511 	DATA 	Keypress: t
+330.3513 	DATA 	Keypress: t
+331.9510 	DATA 	Keypress: t
+333.5511 	DATA 	Keypress: t
+335.1509 	DATA 	Keypress: t
+336.7511 	DATA 	Keypress: t
+338.3509 	DATA 	Keypress: t
+339.9510 	DATA 	Keypress: t
+341.5510 	DATA 	Keypress: t
+343.1510 	DATA 	Keypress: t
+344.7511 	DATA 	Keypress: t
+346.3505 	DATA 	Keypress: t
+347.9507 	DATA 	Keypress: t
+349.5509 	DATA 	Keypress: t
+351.1510 	DATA 	Keypress: t
+352.7509 	DATA 	Keypress: t
+354.3508 	DATA 	Keypress: t
+355.9508 	DATA 	Keypress: t
+357.5509 	DATA 	Keypress: t
+359.1508 	DATA 	Keypress: t
+360.7509 	DATA 	Keypress: t
+362.3508 	DATA 	Keypress: t
+363.9509 	DATA 	Keypress: t
+365.5509 	DATA 	Keypress: t
+367.1509 	DATA 	Keypress: t
+368.7509 	DATA 	Keypress: t
+370.3508 	DATA 	Keypress: t
+371.9507 	DATA 	Keypress: t
+373.5507 	DATA 	Keypress: t
+375.1508 	DATA 	Keypress: t
+376.7508 	DATA 	Keypress: t
+378.3508 	DATA 	Keypress: t
+379.9508 	DATA 	Keypress: t
+381.5508 	DATA 	Keypress: t
+383.1507 	DATA 	Keypress: t
+384.7507 	DATA 	Keypress: t
+386.3507 	DATA 	Keypress: t
+387.9507 	DATA 	Keypress: t
+389.5508 	DATA 	Keypress: t
+391.1508 	DATA 	Keypress: t
+392.7507 	DATA 	Keypress: t
+394.3507 	DATA 	Keypress: t
+395.9508 	DATA 	Keypress: t
+397.5508 	DATA 	Keypress: t
+399.1507 	DATA 	Keypress: t
+400.7507 	DATA 	Keypress: t
+402.3507 	DATA 	Keypress: t
+403.9509 	DATA 	Keypress: t
+405.5506 	DATA 	Keypress: t
+407.1507 	DATA 	Keypress: t
+408.7506 	DATA 	Keypress: t
+410.3506 	DATA 	Keypress: t
+411.9506 	DATA 	Keypress: t
+413.5507 	DATA 	Keypress: t
+415.1507 	DATA 	Keypress: t
+416.7506 	DATA 	Keypress: t
+418.3506 	DATA 	Keypress: t
+419.9505 	DATA 	Keypress: t
+421.5506 	DATA 	Keypress: t
+423.1505 	DATA 	Keypress: t
+424.7505 	DATA 	Keypress: t
+426.3505 	DATA 	Keypress: t
+427.9505 	DATA 	Keypress: t
+429.5506 	DATA 	Keypress: t
+431.1505 	DATA 	Keypress: t
+432.7505 	DATA 	Keypress: t
+434.3505 	DATA 	Keypress: t
+435.9505 	DATA 	Keypress: t
+437.5505 	DATA 	Keypress: t
+439.1504 	DATA 	Keypress: t
+440.7505 	DATA 	Keypress: t
+442.3505 	DATA 	Keypress: t
+443.9504 	DATA 	Keypress: t
+445.5505 	DATA 	Keypress: t
+447.1506 	DATA 	Keypress: t
+448.7505 	DATA 	Keypress: t
+450.3505 	DATA 	Keypress: t
+451.9505 	DATA 	Keypress: t
+453.5504 	DATA 	Keypress: t
+455.1504 	DATA 	Keypress: t
+456.7504 	DATA 	Keypress: t
+458.3504 	DATA 	Keypress: t
+459.9506 	DATA 	Keypress: t
+461.5504 	DATA 	Keypress: t
+463.1504 	DATA 	Keypress: t
+464.7504 	DATA 	Keypress: t
+466.3502 	DATA 	Keypress: t
+467.9504 	DATA 	Keypress: t
+469.5503 	DATA 	Keypress: t
+471.1504 	DATA 	Keypress: t
+472.7503 	DATA 	Keypress: t
+474.3504 	DATA 	Keypress: t
+475.9504 	DATA 	Keypress: t
+477.5503 	DATA 	Keypress: t
+479.1502 	DATA 	Keypress: t
+480.7504 	DATA 	Keypress: t
+482.3503 	DATA 	Keypress: t
+483.9503 	DATA 	Keypress: t
+485.5503 	DATA 	Keypress: t
+487.1503 	DATA 	Keypress: t
+488.7503 	DATA 	Keypress: t
+490.3503 	DATA 	Keypress: t
+491.9501 	DATA 	Keypress: t
+493.5502 	DATA 	Keypress: t
+495.1502 	DATA 	Keypress: t
+496.7501 	DATA 	Keypress: t
+498.3502 	DATA 	Keypress: t
+499.9501 	DATA 	Keypress: t
+501.5502 	DATA 	Keypress: t
+503.1502 	DATA 	Keypress: t
+504.7501 	DATA 	Keypress: t
+506.3502 	DATA 	Keypress: t
+507.9502 	DATA 	Keypress: t
+509.5502 	DATA 	Keypress: t
+511.1502 	DATA 	Keypress: t
+512.7501 	DATA 	Keypress: t
+514.3497 	DATA 	Keypress: t
+515.9499 	DATA 	Keypress: t
+517.5502 	DATA 	Keypress: t
+519.1503 	DATA 	Keypress: t
+520.7500 	DATA 	Keypress: t
+522.3500 	DATA 	Keypress: t
+523.9500 	DATA 	Keypress: t
+525.5501 	DATA 	Keypress: t
+527.1500 	DATA 	Keypress: t
+528.7500 	DATA 	Keypress: t
+530.3503 	DATA 	Keypress: t
+531.9500 	DATA 	Keypress: t
+533.5500 	DATA 	Keypress: t
+535.1502 	DATA 	Keypress: t
+536.7501 	DATA 	Keypress: t
+538.3500 	DATA 	Keypress: t
+539.9502 	DATA 	Keypress: t
+541.5500 	DATA 	Keypress: t
+543.1501 	DATA 	Keypress: t
+544.7500 	DATA 	Keypress: t
+546.3506 	DATA 	Keypress: t
+547.9500 	DATA 	Keypress: t
+549.5500 	DATA 	Keypress: t
+551.1500 	DATA 	Keypress: t
+552.7500 	DATA 	Keypress: t
+554.3500 	DATA 	Keypress: t
+555.9500 	DATA 	Keypress: t
+557.5500 	DATA 	Keypress: t
+559.1499 	DATA 	Keypress: t
+560.7500 	DATA 	Keypress: t
+562.3502 	DATA 	Keypress: t
+563.9499 	DATA 	Keypress: t
+565.5499 	DATA 	Keypress: t
+567.1500 	DATA 	Keypress: t
+568.7499 	DATA 	Keypress: t
+570.3496 	DATA 	Keypress: t
+571.9502 	DATA 	Keypress: t
+573.5499 	DATA 	Keypress: t
+575.1498 	DATA 	Keypress: t
+576.7499 	DATA 	Keypress: t
+578.3498 	DATA 	Keypress: t
+579.9499 	DATA 	Keypress: t
+581.5498 	DATA 	Keypress: t
+583.1498 	DATA 	Keypress: t
+584.7498 	DATA 	Keypress: t
+586.3498 	DATA 	Keypress: t
+587.9498 	DATA 	Keypress: t
+589.5497 	DATA 	Keypress: t
+591.1499 	DATA 	Keypress: t
+592.7498 	DATA 	Keypress: t
+594.3498 	DATA 	Keypress: t
+595.9505 	DATA 	Keypress: t
+597.5498 	DATA 	Keypress: t
+599.1498 	DATA 	Keypress: t
+600.7498 	DATA 	Keypress: t
+602.3498 	DATA 	Keypress: t
+603.9497 	DATA 	Keypress: t
+605.5499 	DATA 	Keypress: t
+607.1497 	DATA 	Keypress: t
+608.7497 	DATA 	Keypress: t
+610.3498 	DATA 	Keypress: t
+611.9503 	DATA 	Keypress: t
+613.5504 	DATA 	Keypress: t
+615.1498 	DATA 	Keypress: t
+616.7498 	DATA 	Keypress: t
+618.3497 	DATA 	Keypress: t
+619.9496 	DATA 	Keypress: t
+621.5496 	DATA 	Keypress: t
+623.1497 	DATA 	Keypress: t
+624.7497 	DATA 	Keypress: t
+626.3497 	DATA 	Keypress: t
+627.9502 	DATA 	Keypress: t
+629.5503 	DATA 	Keypress: t
+631.1503 	DATA 	Keypress: t
+632.7496 	DATA 	Keypress: t
+634.3496 	DATA 	Keypress: t
+635.9496 	DATA 	Keypress: t
+637.5496 	DATA 	Keypress: t
+639.1496 	DATA 	Keypress: t
+640.7496 	DATA 	Keypress: t
+642.3496 	DATA 	Keypress: t
+643.9502 	DATA 	Keypress: t
+645.5502 	DATA 	Keypress: t
+647.1502 	DATA 	Keypress: t
+648.7503 	DATA 	Keypress: t
+650.3501 	DATA 	Keypress: t
+651.9496 	DATA 	Keypress: t
+653.5496 	DATA 	Keypress: t
+655.1496 	DATA 	Keypress: t
+656.7496 	DATA 	Keypress: t
+658.3495 	DATA 	Keypress: t
+659.9502 	DATA 	Keypress: t
+661.5502 	DATA 	Keypress: t
+663.1503 	DATA 	Keypress: t
+664.7502 	DATA 	Keypress: t
+666.3502 	DATA 	Keypress: t
+686.6359 	DATA 	Keypress: q
+686.6411 	EXP 	window1: recordFrameIntervals = False
+687.3849 	EXP 	window1: mouseVisible = True

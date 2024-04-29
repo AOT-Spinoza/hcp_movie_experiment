@@ -9,19 +9,24 @@ window:
   units: pix
   color: [-1, -1, -1]
   size: [1920, 1080]
+  screen: 1
 
 eyetracker:
   address: '100.1.1.1'
   dot_size: 0.1  # in deg
   options:
     calibration_type: HV13
+    calibration_area_proportion: 0.4 0.4
+    validation_area_proportion: 0.4 0.4
+    sample_rate: 1000
 
+  
 stimuli:
   movie_files: ['run_01.mp4', 'run_02.mp4', 'run_03.mp4', 'run_04.mp4', 'run_05.mp4', 'run_06.mp4', 'run_07.mp4', 'run_08.mp4']
-  aperture_radius: 400
+  aperture_radius: 10
   fix_radius: 6
   fix_color: [1, 1, 1]
-  fix_line_width: 0.25
+  fix_line_width: 1.5
   movie_size_pix: [1536,1080]
   shrink_factor: 0.7
 
@@ -32,8 +37,8 @@ paths:
   
 design:
   n_trials: 1
-  start_duration: 0
-  end_duration: 0
+  start_duration: 100000
+  end_duration: 100000
   fix_movie_interval: 0
 
 various:
