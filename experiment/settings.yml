@@ -37,8 +37,8 @@ paths:
   
 design:
   n_trials: 1
-  start_duration: 100000
-  end_duration: 100000
+  start_duration: 0
+  end_duration: 0
   fix_movie_interval: 0
 
 various:
