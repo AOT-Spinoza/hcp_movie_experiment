@@ -45,7 +45,8 @@ class HCPMovieELSession(PylinkEyetrackerSession):
         self.fixation = FixationLines(win=self.win,
                                       circle_radius=self.settings['stimuli'].get(
                                           'aperture_radius')*2 * shrink_factor,
-                                      color=(1, 1, 1),
+                                      color=self.settings['stimuli'].get(
+                                                 'fix_color'),
                                       line_width=self.settings['stimuli'].get(
                                           'fix_line_width'),
                                       pos=self.shiftedpos)
@@ -79,15 +80,15 @@ class HCPMovieELSession(PylinkEyetrackerSession):
                                              trial_nr=0,
                                              phase_durations=[np.inf],
                                              # txt='Please keep fixating at the center.',
-                                             txt='',
+                                             txt='ready to start',
                                              keys=['space'])
 
         dummy_trial = DummyWaiterTrial(session=self,
                                        trial_nr=1,
                                        phase_durations=[
                                            np.inf, self.settings['design'].get('start_duration')],
-                                       # txt='Waiting for experiment to start')
-                                       txt='')
+                                       txt='Waiting for experiment to start')
+                                       
 
         outro_trial = OutroTrial(session=self,
                                  trial_nr=self.n_trials+2,

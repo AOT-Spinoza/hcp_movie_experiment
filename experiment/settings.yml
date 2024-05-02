@@ -23,7 +23,7 @@ eyetracker:
   
 stimuli:
   movie_files: ['run_01.mp4', 'run_02.mp4', 'run_03.mp4', 'run_04.mp4', 'run_05.mp4', 'run_06.mp4', 'run_07.mp4', 'run_08.mp4']
-  aperture_radius: 10
+  aperture_radius: 1000
   fix_radius: 6
   fix_color: [1, 1, 1]
   fix_line_width: 1.5
